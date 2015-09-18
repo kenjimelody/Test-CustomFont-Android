@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">AndroidCustomFont</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="eng_alphabet">abcdefg</string>
+    <string name="eng_alphabet_capital">ABCDEF</string>
+
+    <string name="thai_alphabet">สวัสดี</string>
+
+    <string name="font_1">Test HelveticaNeueLTCom-Bd.ttf</string>
+    <string name="font_2">Test HelveticaNeueLTCom-BdIt.ttf</string>
+    <string name="font_3">Test HelveticaNeueLTCom-Md.ttf</string>
+    <string name="font_4">Test HelveticaNeueLTCom-MdIt.ttf</string>
+
 </resources>

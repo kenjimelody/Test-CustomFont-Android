@@ -1,11 +1,147 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    >
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:text="@string/font_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewBold
+                android:text="@string/eng_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewBold
+                android:text="@string/eng_alphabet_capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewBold
+                android:text="@string/thai_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/font_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicBold
+                android:text="@string/eng_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicBold
+                android:text="@string/eng_alphabet_capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicBold
+                android:text="@string/thai_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/font_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewThin
+                android:text="@string/eng_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewThin
+                android:text="@string/eng_alphabet_capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewThin
+                android:text="@string/thai_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/font_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicThin
+                android:text="@string/eng_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicThin
+                android:text="@string/eng_alphabet_capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <com.melody.mobile.android.test.customfont.widget.TextViewItalicThin
+                android:text="@string/thai_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
